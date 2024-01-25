@@ -1,0 +1,93 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 40px;
+}
+
+.subContainer {
+  display: flex;
+  min-width: 900px;
+  justify-content: space-between;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.description {
+  color: #475569;
+  font-weight: 500;
+  margin-top: 30px;
+}
+.heading {
+  color: #1e293b;
+  font-size: 40px;
+}
+.name {
+  margin-bottom: 20px;
+  width: 250px;
+  padding: 5px;
+  outline: none;
+}
+.comment {
+  margin-bottom: 15px;
+  padding: 10px;
+  outline: none;
+}
+.button {
+  background-color: #0b69ff;
+  border: 0px solid;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.button:hover {
+  cursor: pointer;
+}
+.horizontalLine {
+  height: 2px solid;
+  width: 100%;
+}
+.countContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.count {
+  background-color: #0b69ff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.commentName {
+  font-weight: 500;
+  color: #475569;
+  padding-left: 10px;
+}
+.commentList {
+  list-style: none;
+  margin-left: 0px;
+}
+.headingImage {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .mainImage {
+    display: none;
+  }
+  .headingImage {
+    display: block;
+    width: 250px;
+  }
+  .name {
+    width: 100%;
+  }
+}
